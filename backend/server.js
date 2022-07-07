@@ -4,6 +4,7 @@ const mongoose = require('mongoose');
 const bodyParser = require("body-parser");
 const passport = require('passport');
 const users = require('./routes/user');
+const db = require('./config/keys').mongoURI;
 
 //Connexion à la base de donnée
 
