@@ -1,5 +1,5 @@
 import { Splide, SplideSlide } from '@splidejs/react-splide';
-//import '../node_modules/@splidejs/splide/dist/css/themes/splides-sea-green';
+//import '@splidejs/react-splide/css';
 
 export default function Slider() {
   return (
